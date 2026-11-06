@@ -1,0 +1,16 @@
+nav a {
+    text-decoration: none;
+    color:black;
+
+}
+.aviso {
+    background-color: yellow;
+    color: red;
+    padding: 10px;
+    border: 1px dashed;
+}
+#cabecera {
+    margin-left: 20%;
+    
+
+}

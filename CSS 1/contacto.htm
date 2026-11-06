@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>	
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="estilos.css"/>
+		<title>Contacto</title>
+	</head>
+	<body>
+		<h1>Contáctanos</h1>
+		<p>Rellena tus datos en el siguiente formulario para que te respondamos</p>
+		<!--Aquí empieza el formulario-->
+		<form>
+			<fieldset>
+				<legend>Formulario de contacto</legend>
+				<label for="fnombre">Nombre y apellidos: </label>
+				<input type="text" name="nombre" id="fnombre" placeholder="Escribe tu nombre"/>
+				<br/>
+				<label for="fedad">Edad: </label>
+				<input type="number" min="0" max="120" name="edad" id="fedad"/>
+				<br/>
+				<p>Género: </p><br/>
+				<label for="fgeneroMasculino">Masculino</label>
+				<input type="radio"  name="genero" id="fgeneroMasculino" value="Masculino"/><br/>
+				<label for="fgeneroFemenino">Femenino</label>
+				<input type="radio"  name="genero" id="fgeneroFemenino" value="Femenino"/><br/>
+				<label for="fgeneroOtros">Otros</label>
+				<input type="radio"  name="genero" id="fgeneroOtros" value="Otros"/><br/>
+				<label for="">Ciudad</label>
+				<select id="fciudad" name="ciudad">
+					<option value="" disabled selected> Elige una ciudad </option>
+					<option value="VLL">Valladolid</option>
+					<option value="MAD">Madrid</option>
+				</select>
+				<br/>
+				<input type="submit" value="Enviar formulario"/>
+			</fieldset>
+		</form>
+	</body>
+</html>
