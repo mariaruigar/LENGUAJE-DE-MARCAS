@@ -1,0 +1,10 @@
+body { 
+    colour: #333; 
+} 
+p { 
+    margin: 1 rem; font-size: 16px 
+} 
+.caja { 
+    background: #12345; border: 1px solid 
+}
+

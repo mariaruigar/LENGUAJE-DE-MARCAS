@@ -1,0 +1,11 @@
+/*una de las dos*/
+.reutiliza{
+   border: 1px solid #ccc;
+    padding: 1 rem;
+    margin: 1 rem;}
+#t1, #t2, #t3{
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem;
+}
+
